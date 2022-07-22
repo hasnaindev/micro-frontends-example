@@ -1,0 +1,109 @@
+.cartContainer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.cart {
+  bottom: 0;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 370px;
+}
+
+.cartOverlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  bottom: 0;
+  content: '';
+  display: block;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.cartHeader {
+  border-bottom: 1px solid #ddd;
+  font-size: 13px;
+  padding: 16px 12px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cartHeader p {
+  margin: 0;
+}
+
+.cartCloseBtn {
+  position: absolute;
+  right: 22px;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.cartCloseBtnIcon {
+  display: inline-block;
+  height: 32px;
+}
+
+.cartBody {
+  margin-top: 22px;
+  padding: 12px;
+}
+
+.cartBodyEmptyMessage {
+  font-size: 22px;
+  text-align: center;
+}
+
+.cartList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cartCard {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.cartCard:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.cartCardImg {
+  object-fit: cover;
+  object-position: center;
+  height: 72px;
+  margin-right: 14px;
+  width: 72px;
+}
+
+.cartCardTitle {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 12px;
+  margin-top: 8px;
+}
+
+.cartCardPrice {
+  font-size: 14px;
+  margin: 0;
+}
+
+.total {
+  border-top: 1px solid #ddd;
+  padding: 16px 12px;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.total > p {
+  margin: 0;
+  padding: 0;
+}
